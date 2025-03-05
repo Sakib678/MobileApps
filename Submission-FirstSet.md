@@ -14,9 +14,9 @@ Include the provided question for your exercise and your answer in the space pro
 
 ### Happy Birthday ###
 
-|   **First Part ${\color{green}-- todo}$**    |    **Extension ${\color{green}-- todo}$**    |
-|:--------------------------------------------:|:--------------------------------------------:|
-| ![birthday part 1](./images/placeholder.jpg) | ![birthday part 2](./images/placeholder.jpg) |
+|  **First Part ${\color{green}-- todo}$**   |    **Extension ${\color{green}-- todo}$**    |
+|:------------------------------------------:|:--------------------------------------------:|
+| ![birthday part 1](./images/Birthday1.png) | ![birthday part 2](./images/placeholder.jpg) |
 
 
 #### Question ####
