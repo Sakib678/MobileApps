@@ -35,9 +35,9 @@ Include the provided question for your exercise and your answer in the space pro
 ---
 ### Quadrants ###
 
-|    **First Part ${\color{green}-- todo}$**    |    **Extension ${\color{green}-- todo}$**     |
-|:---------------------------------------------:|:---------------------------------------------:|
-| ![quadrants part 1](./images/placeholder.jpg) | ![quadrants part 2](./images/placeholder.jpg) |
+|       **First Part ${\color{green}-- todo}$**       |    **Extension ${\color{green}-- todo}$**     |
+|:---------------------------------------------------:|:---------------------------------------------:|
+| ![quadrants part 1](./images/quadrantFirstTask.png) | ![quadrants part 2](./images/placeholder.jpg) |
 
 
 #### Question ####
