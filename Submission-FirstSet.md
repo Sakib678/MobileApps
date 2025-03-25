@@ -21,15 +21,32 @@ Include the provided question for your exercise and your answer in the space pro
 
 #### Question ####
 > *Please copy from the feedback branch when provided*
->  
+>  The Birthday/Christmas Example is localised to the English language. What changes would need to be done
+> to make this app localised for the **Spanish** language.
+>
+> https://developer.android.com/guide/topics/resources/localization
+>
+> How would you test that your localised app worked as expected on the emulator?
+> 
+>
+> Please include a screenshot of the new version working as part of the answer.
+>
+> My own example with German language translation is shown below.
+> A screenshot of my french translation is shown below.
+>
+>  ![birthday_german](images/FrenchChristmas.png)
+>
+> Make sure to add a final commit to your birthday branch with the amended code.
+
 >  
 >  
 
 #### Answer ####
 > *Please provide your answer in this space*
+> How would you test that your localised app worked as expected on the emulator?
+> - by changing the device language settings to french
 > 
-> 
-> 
+> ![birthday_french](images/FrenchChristmas.png)
 > 
 
 ---
