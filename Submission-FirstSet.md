@@ -74,9 +74,9 @@ Include the provided question for your exercise and your answer in the space pro
 
 ### Woof ###
 
-| **First Part ${\color{green}-- todo}$**  |  **Extension ${\color{green}-- todo}$**  |
-|:----------------------------------------:|:----------------------------------------:|
-| ![woof part 1](./images/placeholder.jpg) | ![woof part 2](./images/placeholder.jpg) |
+| **First Part ${\color{blue}-- completed}$** |    **Extension ${\color{blue}-- completed}$**     |
+|:-------------------------------------------:|:-------------------------------------------------:|
+|      ![woof part 1](./images/Woof.jpg)      | ![woof part 2](./images/Extension_Woof_Light.jpg) |
 
 
 #### Question ####
@@ -96,9 +96,9 @@ Include the provided question for your exercise and your answer in the space pro
 
 ### Affirmations ###
 
-|     **First Part ${\color{green}-- todo}$**     |     **Extension ${\color{green}-- todo}$**      |
-|:-----------------------------------------------:|:-----------------------------------------------:|
-| ![affirmation part 1](./images/placeholder.jpg) | ![affirmation part 2](./images/placeholder.jpg) |
+|        **First Part ${\color{blue}-- completed}$**         |       **Extension ${\color{blue}-- completed}$**        |
+|:----------------------------------------------------------:|:-------------------------------------------------------:|
+| ![affirmation part 1](./images/affirmation_first_part.png) | ![affirmation part 2](./images/AffirmationExtension.png |
 
 
 #### Question ####
