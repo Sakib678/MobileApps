@@ -59,15 +59,31 @@ Include the provided question for your exercise and your answer in the space pro
 
 #### Question ####
 > *Please copy from the feedback branch when provided*
+>  In the quadrants exercise, the layout of 2x2 has no issues on an orientation change.
+> However, consider the impact a 3x2 in portrait would have when orientated.
+> Is the preference for it to remain 3x2?
+>
+> Typically, layouts *adapt* to meet user expectations.
+>
 >  
+>
+> For this question, please provide an answer indicating how this would be done using *Composables*.
+> You should include in the answer the specific code elements that are aware of the device orientation.
+> A good place to start is **androidx.compose.ui.platform**
+>
+> To further demonstrate your knowledge of the answer - include a screenshot of a modified version
+> of your quadrants to handle a 3x2 to 2x3 switch. Add as a final commit to your quadrants branch
 >  
 >  
 
 #### Answer ####
 > *Please provide your answer in this space*
 > 
+> ![quadrant_layout](images/quadrantquestion.png)
 > 
-> 
+> We can use the localconfiguration.current to get the current orientation for the device. This is
+> from the androidx.compose.ui.platform package. The value "islandscape" is then used to determine 
+> configuration is in landscape. 
 > 
 
 ---
