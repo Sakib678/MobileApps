@@ -141,16 +141,32 @@ Please add an additional commit to your woof branch and include a screenshot sim
 
 #### Question ####
 > *Please copy from the feedback branch when provided*
->  
+>  In the documentation for Compose and LazyColumn, there is the paragraph:
+
+https://developer.android.com/jetpack/compose/lists
+
+“If you need to display a large number of items (or a list of an unknown length), using a layout such as Column can cause performance issues, since all the items will be composed and laid out whether or not they are visible.”
+
+Using the LayoutInspector tool and the Affirmation example further explain the above statement. It is expected that your included answer will include a screenshot from the LayoutInspector tool that shows the issue with using Column rather than LazyColumn for long lists.
+
+Layout Inspector is a tool inside of Android Studio that will show live views from the emulator
+
+https://developer.android.com/studio/debug/layout-inspector
+
+HINT: You will need to change the composable for the Affirmation example to:
+
+affirmation_column_code
 >  
 >  
 
 #### Answer ####
 > *Please provide your answer in this space*
 > 
+> Column is a basic composable. It is not efficient when there are large lists to show. LazyColumn 
+> is more efficient, as it will only generate the  items that need to be visible. Using LazyColumn, 
+> the items will be unloaded and loaded, as the user scrolls.
 > 
-> 
-> 
+> ![affirmation_inspector](images/affirmationInspector.png)
 
 ---
 
