@@ -98,14 +98,36 @@ Include the provided question for your exercise and your answer in the space pro
 #### Question ####
 > *Please copy from the feedback branch when provided*
 >  
->  
+>  Woof displays a list of Cards. The Material 3 API offers several card definitions.
+
+https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary
+
+Having looked at this documentation, please list the changes that will need to be made to produce the following effect on a card - a pressed state that removes a dropped shadow. See the screenshot, this shows an elevated default state with a raised shadow and a pressed state with no elevation.
+
+woof interaction
+
+While this type of material change is the default behaviour for a Pressed State, how could this be overriden so that a border is added on the Pressed state.
+
+woof custom_interaction
+
+Useful information can be found at:
+
+https://developer.android.com/develop/ui/compose/touch-input/user-interactions/handling-interactions
+
+Please add an additional commit to your woof branch and include a screenshot similar to the one shown. Please note the the colour of your card is unimportant and you should just use the card colours that you currently have in your project.
+
+
+
 >  
 
 #### Answer ####
 > *Please provide your answer in this space*
 > 
+> ![woof_layout](images/WoofQuestion.png)
 > 
-> 
+> By using card elevation, it can add a shadow to the card
+> using .border can add a border to the card
+> using a ".clickable", it will allow the card to become a clickable item and can be used to toggle the state
 > 
 
 ---
