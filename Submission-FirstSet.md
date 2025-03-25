@@ -79,9 +79,9 @@ Include the provided question for your exercise and your answer in the space pro
 
 ### Affirmations ###
 
-|        **First Part ${\color{blue}-- completed}$**         |     **Extension ${\color{green}-- todo}$**      |
-|:----------------------------------------------------------:|:-----------------------------------------------:|
-| ![affirmation part 1](./images/affirmation_first_part.png) | ![affirmation part 2](./images/placeholder.jpg) |
+|        **First Part ${\color{blue}-- completed}$**         |       **Extension ${\color{blue}-- completed}$**        |
+|:----------------------------------------------------------:|:-------------------------------------------------------:|
+| ![affirmation part 1](./images/affirmation_first_part.png) | ![affirmation part 2](./images/AffirmationExtension.png |
 
 
 #### Question ####
