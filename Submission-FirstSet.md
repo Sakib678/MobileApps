@@ -164,7 +164,8 @@ affirmation_column_code
 > 
 > Column is a basic composable. It is not efficient when there are large lists to show. LazyColumn 
 > is more efficient, as it will only generate the  items that need to be visible. Using LazyColumn, 
-> the items will be unloaded and loaded, as the user scrolls.
+> the items will be unloaded and loaded, as the user scrolls. As seen in the layout inspector
+> screenshot, all of the affirmation cards are being loaded at once, rather than when they are needed. 
 > 
 > ![affirmation_inspector](images/affirmationInspector.png)
 
