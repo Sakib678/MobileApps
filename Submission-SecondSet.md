@@ -97,10 +97,17 @@ Include the provided question for your exercise and your answer in the space pro
 
 #### Answer ####
 > *Please provide your answer in this space*
+> The first line uses the viewModel() function, which is provided by the androidx.lifecycle library.
+> This function automatically handles the lifecycle, allowing the viewmodel to be reused even when there are changes such as screen rotations.
+> The second line manually creates a viewmodel. 
+> This still works but it does not handle the lifecycle in the way that the first line does. 
+> This means that, if the activity is destroyed, a fresh instance of the DessertViewModel would be created, and the state would be lost.
 > 
-> 
-> 
-> 
+> In the first debugger screenshot, the constructor is stopped at when the activity is created. The constructor is not stopped at again in the second 
+> screenshot, which confirms that the same viewmodel instance is being reused. This would not happen if the second line was used.
+>
+![dessertclicker part 1](./images/DessertDebug1.png)    ![dessertclicker part 1](./images/DessertDebug2.png)
+
 
 ---
 
