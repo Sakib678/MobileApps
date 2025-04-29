@@ -70,9 +70,9 @@ Include the provided question for your exercise and your answer in the space pro
 
 ### DessertClicker ###
 
-|                                   **First Part ${\color{blue}-- completed}$**                                   |                              **Extension ${\color{blue}-- completed}$**                               |
-|:---------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
-| ![dessertclicker part 1](./images/DessertPortrait.png) ![dessertclicker part 1](./images/DessertHorizontal.png) | ![dessertclicker part 2](./images/DessertExtV.png) ![dessertclicker part 2](./images/DessertExtH.png) |
+|                            **First Part ${\color{blue}-- completed}$**                            |                               **Extension ${\color{blue}-- completed}$**                                |
+|:-------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|
+| ![dessertclicker part 1](./images/DessertNP.png) ![dessertclicker part 1](./images/DessertNH.png) | ![dessertclicker part 2](./images/DessertNPExt.png) ![dessertclicker part 2](./images/DessertNHExt.png) |
 
 
 #### Question ####
