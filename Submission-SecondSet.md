@@ -15,9 +15,9 @@ Include the provided question for your exercise and your answer in the space pro
 
 ### Cupcake ###
 
-|                                                                         **First Part ${\color{blue}-- completed}$**                                                                         | **Extension ${\color{blue}-- completed}$**  |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------:|
-| ![cupcake part 1](./images/normalcupcake1.png) ![cupcake part 1](./images/normalcupcake2.png) ![cupcake part 1](./images/normalcupcake3.png) ![cupcake part 1](./images/normalcupcake4.png) | ![cupcake part 2](./images/placeholder.jpg) |
+|                                                                         **First Part ${\color{blue}-- completed}$**                                                                         |                             **Extension ${\color{blue}-- completed}$**                              |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|
+| ![cupcake part 1](./images/normalcupcake1.png) ![cupcake part 1](./images/normalcupcake2.png) ![cupcake part 1](./images/normalcupcake3.png) ![cupcake part 1](./images/normalcupcake4.png) | ![cupcake part 2](./images/CupcakeExtension1.png) ![cupcake part 2](./images/CupcakeExtension2.png) |
 
 
 #### Question ####
@@ -29,15 +29,28 @@ Include the provided question for your exercise and your answer in the space pro
 > Which other method(s) in this parent class is/are used to move between the other screens in the Cupcake example? 
 > How are these used - please make reference to the code and not just the visual output?
 >  
->  
 
 
 #### Answer ####
 > *Please provide your answer in this space*
-> 
-> 
-> 
-> 
+> >  NavHostController extends the NavController class, which contains the popBackStack method.
+The cupcake example uses the navController.navigate() method to move between screens.
+
+> composable(route = CupcakeScreen.Start.name) {
+> StartOrderScreen(
+> quantityOptions = DataSource.quantityOptions,
+> onNextButtonClicked = {
+> viewModel.setQuantity(it)
+> navController.navigate(CupcakeScreen.Flavor.name)
+> },
+
+
+> This method is used within the StartOrderScreen composable. The user presses the next button, which sets the quantity in the
+> OrderViewModel using "viewModelsetQuantity(it)". Then, navController.navigate() is called and the name of the next screen is passed to the navigate
+> method. This causes the navigation to move forward.
+
+> Similarly, the cancel button also uses the popBackStack() method to take the user back to the start screen.
+
 
 ---
 ### DiceRoller ###
