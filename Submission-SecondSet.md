@@ -113,9 +113,9 @@ Include the provided question for your exercise and your answer in the space pro
 
 ### MarsPhoto ###
 
-| **First Part ${\color{blue}-- completed}$**  |    **Extension ${\color{green}-- todo}$**     |
-|:--------------------------------------------:|:---------------------------------------------:|
-| ![marsphoto part 1](./images/marsPhoto1.png) | ![marsphoto part 2](./images/placeholder.jpg) |
+| **First Part ${\color{blue}-- completed}$**  |                        **Extension ${\color{blue}-- completed}$**                         |
+|:--------------------------------------------:|:-----------------------------------------------------------------------------------------:|
+| ![marsphoto part 1](./images/marsPhoto1.png) | ![marsphoto part 2](./images/MarsExt.png)  ![marsphoto part 2](./images/MarsRetryExt.png) |
 
 
 #### Question ####
@@ -129,12 +129,12 @@ Include the provided question for your exercise and your answer in the space pro
 > Finally as part of this question – the manifest file will have an IntentFilter applied to an Activity. 
 > In the MarsPhoto, this would be:
 
-> <intent-filter>
+> // <intent-filter>
 
-> <action android:name="android.intent.action.MAIN" />
-> <category android:name="android.intent.category.LAUNCHER" />
+> // <action android:name="android.intent.action.MAIN" />
+> // <category android:name="android.intent.category.LAUNCHER" />
 
-> </intent-filter >
+> // </intent-filter >
 
 > Please expand on the purpose of this
 >  
@@ -143,9 +143,22 @@ Include the provided question for your exercise and your answer in the space pro
 #### Answer ####
 > *Please provide your answer in this space*
 > 
-> 
-> 
-> 
+> To allow the application to access the external api, the following line was added to the AndroidManifest.xml file.
+> "<uses-permission android:name="android.permission.INTERNET" />"
+> This permission is not set by default due to security concerns. It is required for any app that needs to connect to a network.
+> If this change is not made, the mars app will still build and run but any network requests that are sent will fail, so the pictures will not be displayed as they are fetched from an API.
+> An exception will also be thrown as shown in the following screenshot.
 
+> ![marsphoto part 1](./images/MarsInternetPerm.png)
+>
+> In AndroidManifest.xml, the intent filter is used to state how the app can be started.
+> The "<action android:name="android.intent.action.MAIN" />" is used to mark the entry point of the application
+> The "<category android:name="android.intent.category.LAUNCHER" />" is used to ensure that the app appears on the home screen.
+> This intent filter allows the app to be launched from the screen. If the app didnt have this, it would still install
+> but it would not open via the home screen. 
+> 
+> 
+> 
+> 
 ---
 
