@@ -42,9 +42,9 @@ Include the provided question for your exercise and your answer in the space pro
 ---
 ### DiceRoller ###
 
-|    **First Part ${\color{blue}-- completed}$**    |     **Extension ${\color{green}-- todo}$**     |
-|:-------------------------------------------------:|:----------------------------------------------:|
-| ![diceroller part 1](./images/dicerollernorm.png) | ![diceroller part 2](./images/placeholder.jpg) |
+|    **First Part ${\color{blue}-- completed}$**    |                            **Extension ${\color{blue}-- completed}$**                            |
+|:-------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
+| ![diceroller part 1](./images/dicerollernorm.png) | ![diceroller part 2](./images/DiceRollExt.png) ![diceroller part 2](./images/DoubleDiceRoll.png) |
 
 
 #### Question ####
@@ -61,9 +61,12 @@ Include the provided question for your exercise and your answer in the space pro
 
 #### Answer ####
 > *Please provide your answer in this space*
+> SavedInstanceStateis a bundle object that contains the saved state of the activity. It is passed to
+> onCreate when the activity needs to be restored after it has been destroyed. The value that it has 
+> on first run is null, as there is no state that exists. This was evidenced by using logcat to output 
+> the value of the variable "$savedInstanceState".
 > 
-> 
-> 
+> ![diceroller part 2](./images/SavedState.png)
 > 
 
 ---
