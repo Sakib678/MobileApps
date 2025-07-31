@@ -1,7 +1,7 @@
 
 # DMA-2025 Programming Portfolio
 
-This portfolio is a collection of programs developed using android studio. 
+This portfolio is a collection of programs developed using Kotilin within Android Studio. 
 
 #### SOURCES ####
 
