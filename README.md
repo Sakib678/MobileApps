@@ -1,16 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/qVM4joFG)
+
 # DMA-2025 Programming Portfolio
 
-### Do not change the folder structure in this repo. ###
+This portfolio is a collection of programs developed using android studio. 
 
-## NAME: ~Sakib Arif~
-## STUDENT ID: ~c3606024~
+#### SOURCES ####
 
-By submitting this work you are confirming that the work in this repo is your own, with all credit given to any sources of help. 
-Such sources might include software tools, internet tutorials/references, AI.
-
-#### PLEASE FILL IN TABLE WITH ALL SOURCES ####
-(sample entries provided)
 
 |        **Title**        |   **Link / Ref**   |
 |:-----------------------:|:------------------:|
@@ -27,18 +21,6 @@ You also confirm that you have read and understood the regulations relating to a
 
 ---
 
-## IMPORTANT PLEASE READ AND MAKE NOTE
-
-This repository will contain several Android Projects - but Android Studio **can** only contain a single project at a time. 
-This will mean that to work correctly with this repository.
-
-1. Clone in the first instance through the Command Window
-2. Open project folders directly in Android Studio
-3. It is recommended that git commands are entered via the terminal window - **do not initialise repositories in 
-subfolders** as the top-level folder is managing commit history
-4. It is intended that each Project is worked on as a separate branch - you will see these via Github or by doing a **git branch --all** 
-command in the terminal window.
-5. This means that you need to switch to the appropriate branch when working on a project. Please try your best to stick to these branches.
 
 
 ---
@@ -47,16 +29,13 @@ command in the terminal window.
 Each folder contains a starting Android Studio Project that has been initialised with the current version of **Ladybug (2024.2.1 Patch 2)**. 
 Inside each folder is a README.md file that provides more information about the task. 
 
-This repository consists of 8 projects that map to the Google Codelabs exercises. Completing each exercise fully will receive a 
-maximum of 10 marks. This is broken down as:
-- 2 marks (codelab exercise)
-- 3 marks (extension)
-- 3 marks (answer to supplied question)
-- 2 marks (commits, commit messages and updated README)
+This repository consists of 8 projects that map to the Google Codelabs exercises.  This is broken down as:
+- The codelab exercise
+- An extension
+- An answer to a supplied question
+- Commits and commit messages 
 
-The history (commit messages) should contain meaningful information pertaining to the commit.
 
-The assignment brief lists the expected deadlines and breaks the exercises into <u>TWO SETS OF FOUR</u>.
 
 ### FIRST SET
 
@@ -76,12 +55,5 @@ The assignment brief lists the expected deadlines and breaks the exercises into 
 | DessertClicker |      LifeCycle      |https://developer.android.com/codelabs/basic-android-kotlin-compose-activity-lifecycle#0|
 |   MarsPhoto    |    HTTP Requests    |https://developer.android.com/codelabs/basic-android-kotlin-compose-getting-data-internet#0|
 
-
- 
-The remaining 20% of the module mark will be via an MCQ test.
-
-
----
-### Please use the Discussion Forum on the VLE for questions. ###
 
 
