@@ -11,16 +11,6 @@ This portfolio is a collection of programs developed using android studio.
 |   Android Studio IDE    |   https://developer.android.com/studio   |
 | Android API Documention |  https://developer.android.com/reference   |
 |  Codelabs Compose Labs  | https://developer.android.com/courses/android-basics-compose/course |
-|                         |     |
-|                         |          |
-|                         |       |
-|                         |   |
-|                         |      |
-
-You also confirm that you have read and understood the regulations relating to academic misconduct.
-
----
-
 
 
 ---
