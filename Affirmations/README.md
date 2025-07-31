@@ -40,7 +40,4 @@ additional view element.
 
 
 
----
-### Please use the Discussion Forum on the VLE for questions. ###
-
 
